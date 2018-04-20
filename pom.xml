@@ -25,24 +25,24 @@
 	</properties>
 
 	<dependencies>
-		<!-- È«Õ»web¿ª·¢Ä£¿é -->
+		<!-- å…¨æ ˆwebå¼€å‘æ¨¡å— -->
 	    <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
-		<!-- actuator ¼à¿Ø¶Ëµã -->
+		<!-- actuator ç›‘æŽ§ç«¯ç‚¹ -->
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		
-		<!-- ·þÎñ×¢²áÖÐÐÄ -->
+		<!-- æœåŠ¡æ³¨å†Œä¸­å¿ƒ -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
-		<!-- Ribbon¿Í»§¶Ë¸ºÔØ¾ùºâ -->
+		<!-- Ribbonå®¢æˆ·ç«¯è´Ÿè½½å‡è¡¡ -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-ribbon</artifactId>
@@ -61,7 +61,7 @@
 		</dependency>
 	</dependencies>
 	
-	<!-- ·þÎñ×¢²áÖÐÐÄ -->
+	<!-- æœåŠ¡æ³¨å†Œä¸­å¿ƒ -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
